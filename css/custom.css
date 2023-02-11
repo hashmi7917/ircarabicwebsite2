@@ -321,4 +321,7 @@
   #morebtn2 {
     display: block;
   }
+  .founder-text {
+    margin-bottom: none !important;
+  }
 }
