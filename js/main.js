@@ -144,10 +144,10 @@ function clicked() {
 
   return totalNumber;
 }
-function onBodyLoad() {
-  document.getElementById("totaldownloads").innerText = totalNumber;
-  console.log(totalNumber);
-}
+// function onBodyLoad() {
+//   document.getElementById("totaldownloads").innerText = totalNumber;
+//   console.log(totalNumber);
+// }
 
 function clicked2() {
   let totalNumber = 0;

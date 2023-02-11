@@ -65,7 +65,6 @@
   <body id="top">
     <!-- Spinner Start -->
     <div
-      onload="clicked()"
       id="spinner"
       class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
     >
@@ -156,7 +155,6 @@
               <div class="dropdown-menu m-0">
                 <a href="#academy" class="dropdown-item">About Academy</a>
                 <a href="#about" class="dropdown-item">About Founder</a>
-                <a href="#syllabus" class="dropdown-item">About Syllabus</a>
               </div>
             </div>
             <a href="#activities" class="nav-item nav-link">Activities</a>
@@ -176,6 +174,7 @@
             </div>
 
             <a href="#payment" class="nav-item nav-link">Pay Your Fees</a>
+            <a href="#syllabus" class="nav-item nav-link">Syllabus</a>
             <div class="nav-item dropdown">
               <a
                 href="#"
@@ -1313,7 +1312,7 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-1.png" alt="" />
               <h4 class="mb-3">Read Quran</h4>
-              <p class="mb-4">Asaan Qaidah</p>
+              <p class="mb-4">Asaan Qaidah & Al Quran ul Kareem</p>
               <a
                 class="btn btn-outline-success px-3"
                 onclick="clicked()"
@@ -1340,18 +1339,18 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
               <h4 class="mb-3">Learn Islam</h4>
-              <p class="mb-4">Asaan Qaidah</p>
+              <p class="mb-4">Learn Islam - Najm</p>
               <a
-                class="btn btn-outline-success px-3"
-                href="./assets/pdf/Asaan Qaidah.pdf"
+                class="btn btn-outline-success px-3 mt-4"
+                href="./assets/pdf/Learn Islam - Najm.pdf"
                 download
               >
                 Download
               </a>
-              <!-- <div>
+              <div class="mt-2">
                 Total Downloads:
                 <div id="totaldownloads2"></div>
-              </div> -->
+              </div>
             </div>
           </div>
           <div
@@ -1368,12 +1367,16 @@
               <h4 class="mb-3">Etiquettes of Life</h4>
               <p class="mb-4">Etiquettes of Life - Najm</p>
               <a
-                class="btn btn-outline-success px-3"
+                class="btn btn-outline-success px-3 mt-4"
                 href="./assets/pdf/Etiquettes of Life - Najm.pdf"
                 download
               >
                 Download
               </a>
+              <div class="mt-2">
+                Total Downloads:
+                <div id="totaldownloads3"></div>
+              </div>
             </div>
           </div>
           <div
@@ -1388,7 +1391,7 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-3.png" alt="" />
               <h4 class="mb-3">Urdu</h4>
-              <p class="mb-4">N / A</p>
+              <p class="mb-4">Urdu Workbook</p>
               <!-- <a class="btn btn-outline-success px-3" href=""> Download </a> -->
             </div>
           </div>
@@ -1413,15 +1416,15 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-1.png" alt="" />
               <h4 class="mb-3">Read Quran</h4>
-              <p class="mb-2">Asaan Qaidah</p>
+              <p class="mb-4">Al Qaidah An Nooraniyyah & Al Quran ul Kareem</p>
 
-              <a
+              <!-- <a
                 class="btn btn-outline-success px-3"
                 href="./assets/pdf/Asaan Qaidah.pdf"
                 download
               >
                 Download
-              </a>
+              </a> -->
               <!-- <div>
                 Total Downloads:
                 <div id="totaldownloads"></div>
@@ -1440,25 +1443,19 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
               <h4 class="mb-3">Learn Islam</h4>
-              <p class="mb-2">
-                <span class="fw-bold">Al Quran Al Kareem</span> Mushaf e Uthmani
-                Script
-              </p>
-              <p class="mb-2">
-                <span class="fw-bold"> Publisher:</span> Maktabah Al Hasanat
-                (Delhi)
-              </p>
+              <p class="mb-4">Learn Islam - Qamar</p>
 
-              <p class="mb-2 fw-bold">Al Qaidah An Nooraniyyah</p>
-              <p class="mb-2">
-                <span class="fw-bold"> Publisher:</span> Furqaan Group for
-                Education & IT (Saudi Arabia)
-              </p>
-              <!-- <a class="btn btn-outline-success px-3"> Download </a> -->
-              <!-- <div>
+              <a
+                class="btn btn-outline-success px-3"
+                href="./assets/pdf/Learn Islam - Qamar.pdf"
+                download
+              >
+                Download
+              </a>
+              <div class="mt-2">
                 Total Downloads:
-                <div id="totaldownloads2"></div>
-              </div> -->
+                <div id="totaldownloads4"></div>
+              </div>
             </div>
           </div>
           <div
@@ -1481,6 +1478,10 @@
               >
                 Download
               </a>
+              <div class="mt-2">
+                Total Downloads:
+                <div id="totaldownloads5"></div>
+              </div>
             </div>
           </div>
           <div
@@ -1495,11 +1496,8 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-3.png" alt="" />
               <h4 class="mb-3">Urdu</h4>
-              <p class="mb-4">Noor e Urdu</p>
-              <p class="mb-2">
-                <span class="fw-bold"> Publisher: </span>Ideal Enterprises
-                (Regd.) Bidar Karnataka
-              </p>
+              <p class="mb-4">Urdu Workbook</p>
+
               <!-- <a class="btn btn-outline-success px-3" href=""> Download </a> -->
             </div>
           </div>
@@ -1524,14 +1522,14 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-1.png" alt="" />
               <h4 class="mb-3">Read Quran</h4>
-              <p class="mb-4">Asaan Qaidah</p>
-              <a
+              <p class="mb-4">Al Qaidah An Nooraniyyah & Al Quran ul Kareem</p>
+              <!-- <a
                 class="btn btn-outline-success px-3"
                 href="./assets/pdf/Asaan Qaidah.pdf"
                 download
               >
                 Download
-              </a>
+              </a> -->
               <!-- <div>
                 Total Downloads:
                 <div id="totaldownloads"></div>
@@ -1550,27 +1548,19 @@
             <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
               <img class="img-fluid mb-4" src="img/icon-2.png" alt="" />
               <h4 class="mb-3">Learn Islam</h4>
-              <p class="mb-2">
-                <span class="fw-bold">Al Quran Al Kareem</span> Mushaf e Uthmani
-                Script
-              </p>
-              <p class="mb-2">
-                <span class="fw-bold"> Publisher:</span> Maktabah Al Hasanat
-                (Delhi)
-              </p>
+              <p class="mb-4">Learn Islam - Shams</p>
 
-              <p class="mb-2 fw-bold">Al Qaidah An Nooraniyyah</p>
-              <p class="mb-2">
-                <span class="fw-bold"> Publisher:</span> Furqaan Group for
-                Education & IT (Saudi Arabia)
-              </p>
-              <!-- <a class="btn btn-outline-success px-3" onclick="clicked2()">
+              <a
+                class="btn btn-outline-success px-3"
+                href="./assets/pdf/Learn Islam - Shams.pdf"
+                download
+              >
                 Download
-              </a> -->
-              <!-- <div>
+              </a>
+              <div class="mt-2">
                 Total Downloads:
-                <div id="totaldownloads2"></div>
-              </div> -->
+                <div id="totaldownloads6"></div>
+              </div>
             </div>
           </div>
           <div
@@ -1593,6 +1583,10 @@
               >
                 Download
               </a>
+              <div class="mt-2">
+                Total Downloads:
+                <div id="totaldownloads7"></div>
+              </div>
             </div>
           </div>
           <div
@@ -1608,10 +1602,10 @@
               <img class="img-fluid mb-4" src="img/icon-3.png" alt="" />
               <h4 class="mb-3">Urdu</h4>
               <p class="mb-4">Noor e Urdu</p>
-              <p class="mb-2">
+              <!-- <p class="mb-2">
                 <span class="fw-bold"> Publisher: </span>Ideal Enterprises
                 (Regd.) Bidar Karnataka
-              </p>
+              </p> -->
 
               <!-- <a class="btn btn-outline-success px-3" href=""> Download </a> -->
             </div>
