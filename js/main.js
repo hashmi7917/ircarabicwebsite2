@@ -128,11 +128,11 @@ function saveToLocalStorage() {
 
 // live counter
 
-function clicked() {
+function asaanQaidah() {
   let totalNumber = 0;
   let totaldownloadsBtn = document.getElementById("totaldownloads");
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://api.countapi.xyz/hit/myweb.com/awesomeclick");
+  xhr.open("GET", "https://api.countapi.xyz/hit/asaanQaidah/awesomeclick");
   xhr.responseType = "json";
   xhr.onload = function () {
     // alert(`This button has been clicked ${this.response.value} times!`);
@@ -144,27 +144,114 @@ function clicked() {
 
   return totalNumber;
 }
-// function onBodyLoad() {
-//   document.getElementById("totaldownloads").innerText = totalNumber;
-//   console.log(totalNumber);
-// }
 
-function clicked2() {
+function liNajm() {
   let totalNumber = 0;
-  let totaldownloadsBtn2 = document.getElementById("totaldownloads2");
+  let totaldownloadsBtn = document.getElementById("totaldownloads2");
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "https://api.countapi.xyz/hit/two/awesomeclick");
+  xhr.open("GET", "https://api.countapi.xyz/hit/liNajm/awesomeclick");
   xhr.responseType = "json";
   xhr.onload = function () {
     // alert(`This button has been clicked ${this.response.value} times!`);
-    totaldownloadsBtn2 = totaldownloadsBtn2.innerText = this.response.value;
-    totalNumber = totaldownloadsBtn2;
+    totaldownloadsBtn = totaldownloadsBtn.innerText = this.response.value;
+    totalNumber = totaldownloadsBtn;
   };
 
   xhr.send();
 
   return totalNumber;
 }
+
+function etiqNajm() {
+  let totalNumber = 0;
+  let totaldownloadsBtn = document.getElementById("totaldownloads3");
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/etiqNajm/awesomeclick");
+  xhr.responseType = "json";
+  xhr.onload = function () {
+    // alert(`This button has been clicked ${this.response.value} times!`);
+    totaldownloadsBtn = totaldownloadsBtn.innerText = this.response.value;
+    totalNumber = totaldownloadsBtn;
+  };
+
+  xhr.send();
+
+  return totalNumber;
+}
+
+function liQamar() {
+  let totalNumber = 0;
+  let totaldownloadsBtn = document.getElementById("totaldownloads4");
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/liQamar/awesomeclick");
+  xhr.responseType = "json";
+  xhr.onload = function () {
+    // alert(`This button has been clicked ${this.response.value} times!`);
+    totaldownloadsBtn = totaldownloadsBtn.innerText = this.response.value;
+    totalNumber = totaldownloadsBtn;
+  };
+
+  xhr.send();
+
+  return totalNumber;
+}
+
+function etiqQamar() {
+  let totalNumber = 0;
+  let totaldownloadsBtn = document.getElementById("totaldownloads5");
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/etiqQamar/awesomeclick");
+  xhr.responseType = "json";
+  xhr.onload = function () {
+    // alert(`This button has been clicked ${this.response.value} times!`);
+    totaldownloadsBtn = totaldownloadsBtn.innerText = this.response.value;
+    totalNumber = totaldownloadsBtn;
+  };
+
+  xhr.send();
+
+  return totalNumber;
+}
+
+function liShams() {
+  let totalNumber = 0;
+  let totaldownloadsBtn = document.getElementById("totaldownloads6");
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/liShams/awesomeclick");
+  xhr.responseType = "json";
+  xhr.onload = function () {
+    // alert(`This button has been clicked ${this.response.value} times!`);
+    totaldownloadsBtn = totaldownloadsBtn.innerText = this.response.value;
+    totalNumber = totaldownloadsBtn;
+  };
+
+  xhr.send();
+
+  return totalNumber;
+}
+
+function etiqShams() {
+  let totalNumber = 0;
+  let totaldownloadsBtn = document.getElementById("totaldownloads7");
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "https://api.countapi.xyz/hit/etiqShams/awesomeclick");
+  xhr.responseType = "json";
+  xhr.onload = function () {
+    // alert(`This button has been clicked ${this.response.value} times!`);
+    totaldownloadsBtn = totaldownloadsBtn.innerText = this.response.value;
+    totalNumber = totaldownloadsBtn;
+  };
+
+  xhr.send();
+
+  return totalNumber;
+}
+
+// function onBodyLoad() {
+//   document.getElementById("totaldownloads").innerText = totalNumber;
+//   console.log(totalNumber);
+// }
+
 // function onBodyLoad() {
 //   document.getElementById("totaldownloads").innerText = totalNumber;
 //   console.log(totalNumber);
